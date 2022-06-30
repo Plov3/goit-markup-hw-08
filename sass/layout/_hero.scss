@@ -7,6 +7,8 @@
    padding-top: 118px;
    padding-bottom: 118px;
    width: 480px;
+   margin-left: auto;
+   margin-right: auto;
   }
   .hero-header {
     font-family: 'Roboto';
@@ -17,8 +19,9 @@
         text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   
 }
@@ -29,6 +32,7 @@
    width: 480px;
   }
 }
+
 // .hero {
 //   background: #2f303a;
 //   padding-top: 200px;
