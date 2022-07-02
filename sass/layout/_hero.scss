@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 1dppx) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero/hero-background-mobile.png);
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 1dppx) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero/hero-background-tablet.png);
@@ -94,7 +94,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) and (min-resolution: 1dppx) {
+@media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero/hero-background-desktop.png);
