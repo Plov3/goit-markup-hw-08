@@ -3,7 +3,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
   min-height: 580px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -99,16 +98,16 @@
 }
 .modal__form-checkbox-wrap {
   position: relative;
-  margin-left: 13px;
+  margin-left: 0;
 }
 .modal__aggreement-label {
   display: flex;
   align-items: center;
-  font-size: 14px;
-  line-height: 171%;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 25px;
+  margin-left: 23px;
   &::before {
     left: 0;
     position: absolute;
@@ -130,8 +129,8 @@
   }
 }
 .modal__aggreement-link {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196f3;
@@ -160,5 +159,28 @@
   &:hover,
   &:focus {
     background: #2196f3;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+  .modal__form-checkbox-wrap {
+    position: relative;
+    margin-left: 13px;
+  }
+  .modal__aggreement-label {
+    font-size: 14px;
+    line-height: 171%;
+  }
+  .modal__aggreement-link {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
