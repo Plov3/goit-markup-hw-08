@@ -2,7 +2,7 @@
   background: #2f303a;
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../../images/hero/hero-background-mobile.png);
+    url(../images/hero/hero-background-mobile.png);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,7 +61,7 @@
 @media screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 1dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/hero/hero-background-mobile.png);
+      url(../images/hero/hero-background-mobile.png);
     background-size: 480px;
     width: 480px;
   }
@@ -71,7 +71,7 @@
   @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/hero/hero-background-mobile@2.png);
+        url(../images/hero/hero-background-mobile@2.png);
     }
   }
 }
@@ -79,7 +79,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 1dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/hero/hero-background-tablet.png);
+      url(../images/hero/hero-background-tablet.png);
     background-size: 768px;
     width: 768px;
   }
@@ -89,7 +89,7 @@
   @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/hero/hero-background-tablet@2.png);
+        url(../images/hero/hero-background-tablet@2.png);
     }
   }
 }
@@ -97,7 +97,7 @@
 @media screen and (min-width: 1200px) and (min-resolution: 1dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/hero/hero-background-desktop.png);
+      url(../images/hero/hero-background-desktop.png);
     background-size: 1600px;
     width: 1600px;
     padding-top: 200px;
@@ -112,7 +112,7 @@
   @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .hero {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images/hero/hero-background-desktop@2.png);
+        url(../images/hero/hero-background-desktop@2.png);
     }
   }
 }
