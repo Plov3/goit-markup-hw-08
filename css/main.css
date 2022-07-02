@@ -79,6 +79,7 @@ img {
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
+    z-index: 4;
     left: 0;
     top: 0;
     width: 100%;
@@ -554,6 +555,7 @@ img {
 }
 .backdrop {
   position: fixed;
+  z-index: 5;
   top: 0;
   left: 0;
   bottom: 0;
