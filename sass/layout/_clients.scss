@@ -33,7 +33,17 @@
 .clients__unit {
   margin-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
+  .clients__list {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .clients__link {
+    width: 230px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .clients__link {
     width: 210px;
   }

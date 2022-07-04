@@ -1,11 +1,11 @@
 .modal {
+  z-index: 6;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 450px;
-  min-height: 580px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -37,6 +37,7 @@
   padding: 40px;
 }
 .modal__form-toaction {
+  display: block;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -46,6 +47,7 @@
   margin-bottom: 12px;
 }
 .modal__form-input {
+  display: block;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
@@ -53,6 +55,7 @@
   display: block;
 }
 .modal__input-wrap {
+  display: block;
   position: relative;
   margin-bottom: 10px;
 }
@@ -68,6 +71,7 @@
   }
 }
 .modal__form-field {
+  display: block;
   width: 100%;
   margin-top: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -81,6 +85,7 @@
   }
 }
 .modal__form-comment {
+  display: block;
   width: 100%;
   margin-top: 4px;
   margin-bottom: 20px;
@@ -109,7 +114,7 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: #757575;
-  margin-left: 23px;
+  margin-left: 18px;
   &::before {
     left: 0;
     position: absolute;
@@ -166,23 +171,29 @@
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    max-width: 528px;
   }
   .modal__form-checkbox-wrap {
     position: relative;
-    margin-left: 13px;
+    margin-left: 8px;
   }
   .modal__aggreement-label {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 171%;
   }
   .modal__aggreement-link {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.71;
+  }
+}
+@media screen and (max-height: 608px) {
+  .modal {
+    height: 100%;
+    overflow-y: scroll;
   }
 }

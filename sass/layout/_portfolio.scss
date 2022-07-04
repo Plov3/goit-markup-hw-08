@@ -118,6 +118,7 @@ height: 100%;
   color: #ffffff;
 }
 
+
 @media screen and (max-width: 767px) {
   .portfolio__filter-list {
     justify-content: left;
@@ -158,5 +159,13 @@ height: 100%;
 @media screen and (min-width: 1200px) {
   .portfolio__example:nth-child(-n + 6) {
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .portfolio__example-overlay-wrap {
+        height: calc(100% - 110px);
+  }
+  .portfolio__example-overlay-text {
+    font-size: 14px;
   }
 }
