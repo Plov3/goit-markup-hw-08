@@ -1160,8 +1160,7 @@ img {
 .portfolio__example-overlay-wrap {
   top: 0;
   width: 100%;
-  height: 294px;
-  position: absolute;
+  position: relative;
   overflow: hidden;
 }
 
@@ -1170,6 +1169,8 @@ img {
   position: absolute;
   visibility: hidden;
   display: flex;
+  position: absolute;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   padding-left: 24px;
